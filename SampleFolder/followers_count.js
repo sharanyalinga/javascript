@@ -8,7 +8,9 @@ function displayCount() {
     }
     
 function checkCountValue() {
-  if (count === 10) {
+  if (count === 0) {
+    alert("Aiyoo. Zero followers aah? Even my code has more social life than ur account 🥲.");
+  } else if (count === 10) {
     alert("Your Instagram post gained 10 followers! Congratulations!");
   } else if (count === 20) {
     alert("Your Instagram post gained 20 followers! Keep it up!");
